@@ -1,0 +1,5 @@
+@import "font-helper";
+
+@include source-sans-pro-font("Source Sans Pro Bold", "SourceSansPro-Bold", bold, normal);
+
+@include source-sans-pro-font("Source Sans Pro Bold Italic", "SourceSansPro-BoldIt", bold, italic);

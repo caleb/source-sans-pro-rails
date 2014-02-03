@@ -1,0 +1,5 @@
+@import "font-helper";
+
+@include source-sans-pro-font("Source Sans Pro Semibold", "SourceSansPro-Semibold", 600, normal);
+
+@include source-sans-pro-font("Source Sans Pro Semibold Italic", "SourceSansPro-SemiboldIt", 600, italic);

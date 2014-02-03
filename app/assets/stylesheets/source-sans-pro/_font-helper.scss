@@ -1,0 +1,13 @@
+@mixin source-sans-pro-font($name, $file, $weight, $style) {
+  @font-face {
+    font-family: $name;
+    src: url(font-path("#{$file}.eot"));
+    src: url(font-path("#{$file}.eot?#iefix")) format("embedded-opentype"),
+    url(font-path("#{$file}.otf.woff")) format("woff"),
+    url(font-path("#{$file}.ttf.woff")) format("woff"),
+    url(font-path("#{$file}.svg##{$file}")) format("svg");
+
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
