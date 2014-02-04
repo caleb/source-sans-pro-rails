@@ -2,7 +2,7 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-Bundler.require(*Rails.groups(:development => [:test]))
+Bundler.require(*Rails.groups)
 require "source-sans-pro-rails"
 
 module Dummy

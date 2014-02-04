@@ -10,13 +10,13 @@ Gem::Specification.new do |s|
   s.authors     = ["Caleb Land"]
   s.email       = ["caleb@land.fm"]
   s.homepage    = "http://github.com/caleb/source-pro-sans-rails"
-  s.summary     = "A convenient way to use the Source Sans Pro fonts in your rails app"
+  s.summary     = "Use the Source Sans Pro fonts in your rails app"
   s.description = "source-sans-pro-rails is a Rails engine that allows you to use the Adobe's Source Sans Pro fonts in your web app"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.0.2"
-  s.add_development_dependency "sass-rails", "~> 4.0.0"
+  s.add_dependency "rails", "~> 4.0"
+  s.add_dependency "sass-rails", "~> 4.0"
   s.add_development_dependency "sqlite3"
 end

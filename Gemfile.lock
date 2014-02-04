@@ -2,7 +2,8 @@ PATH
   remote: .
   specs:
     source-sans-pro-rails (1.0.0)
-      rails (~> 4.0.2)
+      rails (~> 4.0)
+      sass-rails (~> 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -89,6 +90,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sass-rails (~> 4.0.0)
   source-sans-pro-rails!
   sqlite3
