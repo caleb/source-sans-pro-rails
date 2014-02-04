@@ -89,6 +89,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sass-rails
+  sass-rails (~> 4.0.0)
   source-sans-pro-rails!
   sqlite3
